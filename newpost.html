@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pikadu-Новая страница</title>
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header">
+		<div class="header-wrap">
+			<a href="/" class="logo-link">
+				<img src="img/Pikadu.svg"" alt=" Логотип" class="logo">
+			</a> <!-- /.logo-link -->
+			<nav class="header-menu">
+				<ul class="header-menu-items">
+					<li class="header-menu-item">
+						<a href="#" class="header-menu-link">Свежее</a>
+					</li>
+					<li class="header-menu-item">
+						<a href="#" class="header-menu-link">Лучшее</a>
+					</li>
+					<li class="header-menu-item">
+						<a href="#" class="header-menu-link">Горячее</a>
+					</li>
+					<li class="header-menu-item">
+						<a href="#" class="header-menu-link">Подписки</a>
+					</li>
+				</ul>
+				<!-- /.header-menu-items -->
+			</nav>
+			<!-- /.header-menu -->
+			<div class="header-search">
+				<input type="text" class="input input-search" placeholder="Поиск по сайту">
+				<button class="button button-search">
+					<img src="/img/icon-search.svg" alt="Поиск" class="icon-search">
+				</button>
+			</div>
+			<!-- /.header-search -->
+			<a href="#" class="menu-toggle" id="menu-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+		</div>
+		<!-- /.header-wrap -->
+	</header>
+	<!-- /.header -->
+
+	<!-- content -->
+	<main>
+		<div class="content">
+			<div class="post-wrap">
+				<section class="posts">
+					<form action="#" class="newpost">
+						<input type="text" class="newpost-title" placeholder="Заголовок поста">
+						<textarea name="newpost-text" id="newpost-text" placeholder="Текст вашего поста"
+							class="newpost-text"></textarea>
+						<div class="buttons-newpost">
+							<button name="submit" class="button button-newpost">
+								<svg class="icon icon-fire">
+									<use xlink:href="/img/icons.svg#fire"></use>
+								</svg>
+								Опубликовать пост
+							</button>
+							<button class="button buttons-outline">
+								<div class="button-outline">
+									<svg class="icon icon-video-camera">
+										<use xlink:href="/img/icons.svg#video-camera"></use>
+									</svg>
+									Видео
+								</div>
+							</button>
+							<button class="button buttons-outline">
+								<div class="button-outline">
+									<svg class="icon icon-foto-camera">
+										<use xlink:href="/img/icons.svg#foto-camera"></use>
+									</svg>
+									Фото
+								</div>
+							</button>
+						</div>
+					</form>
+
+				</section>
+				<!-- /.posts -->
+			</div>
+			<!-- /.post-wrap -->
+
+			<!-- sidebar -->
+
+			<aside class="sidebar">
+				<div class="sidebar-menu">
+					<div class="sidebar-menu-header">
+						<div class="sidebar-menu-user">
+							<img src="/img/avatar.jpg" alt="Фото пользователя" class="sidebar-user-foto">
+							<a href="#" class="sidebar-user-link">lenaivanova</a>
+						</div>
+						<button class="button-poweroff">
+							<svg class="icon icon-off">
+								<use xlink:href="/img/icons.svg#off"></use>
+							</svg>
+						</button>
+					</div>
+					<div class="sidebar-menu-nav">
+						<ul class="sidebar-menu-items">
+							<li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Ответы</a></li>
+							<li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Комментарии</a></li>
+							<li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link active">Оценки</a></li>
+							<li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Сохранённое</a></li>
+							<li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Подписки</a></li>
+							<li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Заметки</a></li>
+							<li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Игнор-лист</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /.sidebar-menu -->
+				<a href="#" class="sidebar-ads"></a>
+				<!-- /.sidebar-ads -->
+			</aside>
+			<!-- /.sidebar -->
+		</div>
+		<!-- /.content -->
+	</main>
+	<script src="/js/main.js"></script>
+</body>
+
+</html>
